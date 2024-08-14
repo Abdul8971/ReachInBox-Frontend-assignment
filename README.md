@@ -20,7 +20,7 @@ This project is a web application developed for Reachinbox. It features a user-f
 1. **Clone the Repository**
 
    ```bash
-   https://github.com/Abdul8971/ReachInBox-Frontend-assignment.git `
+   https://github.com/Abdul8971/ReachInBox-Frontend-assignment.git 
 
    ```
 
