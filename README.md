@@ -20,7 +20,7 @@ This project is a web application developed for Reachinbox. It features a user-f
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/saqlainkaleem/reachinbox.git `
+   https://github.com/Abdul8971/ReachInBox-Frontend-assignment.git `
 
    ```
 
@@ -85,61 +85,6 @@ This project is a web application developed for Reachinbox. It features a user-f
 - **Headers**:
   - `Authorization`: Bearer token
 
-## Components
-
-### 1\. **SideBar**
-
-- **Description**: A fixed sidebar for navigation with icons for various sections (e.g., Home, Mail, Search).
-- **Props**:
-  - `onMenuItemClick` (Function): Callback function for handling menu item clicks.
-- **State**:
-  - `selectedItem`: Current selected menu item.
-
-### 2\. **TopBar**
-
-- **Description**: Displays the application title and includes a theme toggle button.
-- **Features**:
-  - Theme toggle to switch between dark and light modes.
-
-### 3\. **MainPage**
-
-- **Description**: The main content area with email threads on the left, email details in the center, and additional details on the right.
-- **State**:
-  - `datas`: List of email threads.
-  - `loading`: Loading state.
-  - `selectedThread`: Currently selected email thread.
-
-### 4\. **RightSection**
-
-- **Description**: Displays lead details and activities related to the selected email thread.
-- **Features**:
-  - Lead details including name, contact info, email ID, and LinkedIn profile.
-  - List of email activities with timestamps.
-
-### 5\. **SubView**
-
-- **Description**: Placeholder view shown when no emails are available.
-- **Features**:
-  - Displays an image and placeholder text.
-
-### 6\. **CustomMail**
-
-- **Description**: Component for composing and sending replies to email threads.
-- **State**:
-  - `replyData`: Contains fields for 'to', 'from', 'subject', and 'body'.
-
-### 7\. **DeletePopUp**
-
-- **Description**: Popup confirmation for deleting an email.
-- **Props**:
-  - `onCancel` (Function): Callback function to handle canceling the deletion.
-  - `onDelete` (Function): Callback function to handle the deletion.
-
-### 8\. **ThemeToggle**
-
-- **Description**: Button to toggle between dark and light themes.
-- **State**:
-  - `darkMode`: Boolean indicating the current theme mode.
 
 ## Figma Design
 
